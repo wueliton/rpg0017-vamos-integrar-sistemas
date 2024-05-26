@@ -36,7 +36,7 @@ public class ServletProdutoFC extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String acao = request.getParameter("acao");
-        String destino = "ProdutoLista.jsp";;
+        String destino = "ProdutoLista.jsp";
 
         if (acao == null) {
             acao = "listar";
